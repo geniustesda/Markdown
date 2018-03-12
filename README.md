@@ -75,6 +75,7 @@ Markdown语法主要分为如下几大部分：
 
 #### 4.3 区块引用
 在段落的每行或者只在第一行使用符号`>`,还可使用多个嵌套引用，如：
+
 > \> 区块引用  
 > \>> 嵌套引用  
 
@@ -92,11 +93,12 @@ void main()
 }    
 
 代码区块：
-
+>\```
     void main()
     {
         printf("Hello, Markdown.");
     }
+>\```
 
 **注意**:需要和普通段落之间存在空行。
 
@@ -138,25 +140,25 @@ void main()
 #### 4.8 链接
 链接可以由两种形式生成：**行内式**和**参考式**。    
 **行内式**：
-> \[younghz的Markdown库\]\(https:://github.com/younghz/Markdown "Markdown"\)。
+> \[geniustesda的Markdown库\]\(https:://github.com/geniustesda/Markdown "Markdown"\)。
 
 效果：
-> [younghz的Markdown库](https:://github.com/younghz/Markdown "Markdown")。
+> [geniustesda的Markdown库](https:://github.com/geniustesda/Markdown "Markdown")。
 
 **参考式**：
-> \[younghz的Markdown库1\]\[1\]    
-> \[younghz的Markdown库2\]\[2\]    
-> \[1\]:https:://github.com/younghz/Markdown "Markdown"    
-> \[2\]:https:://github.com/younghz/Markdown "Markdown"    
+> \[geniustesda的Markdown库1\]\[1\]    
+> \[geniustesda的Markdown库2\]\[2\]    
+> \[1\]:https:://github.com/geniustesda/Markdown "Markdown"    
+> \[2\]:https:://github.com/geniustesda/Markdown "Markdown"    
 
 效果：
-> [younghz的Markdown库1][1]    
-> [younghz的Markdown库2][2]
+> [geniustesda的Markdown库1][1]    
+> [geniustesda的Markdown库2][2]
 
-[1]: https:://github.com/younghz/Markdown "Markdown"
-[2]: https:://github.com/younghz/Markdown "Markdown"
+[1]: https:://github.com/geniustesda/Markdown "Markdown"
+[2]: https:://github.com/geniustesda/Markdown "Markdown"
 
-**注意**：上述的`[1]:https:://github.com/younghz/Markdown "Markdown"`不出现在区块中。
+**注意**：上述的`[1]:https:://github.com/geniustesda/Markdown "Markdown"`不出现在区块中。
 
 #### 4.9 图片
 添加图片的形式和链接相似，只需在链接的基础上前方加一个`！`。
@@ -202,8 +204,8 @@ Markdown的使用者：
 
 |代码库                              |链接                                |
 |:------------------------------------:|------------------------------------|
-|MarkDown                              |[https://github.com/younghz/Markdown](https://github.com/younghz/Markdown "Markdown")|
-|MarkDownCopy                              |[https://github.com/younghz/Markdown](https://github.com/younghz/Markdown "Markdown")|
+|MarkDown                              |[https://github.com/geniustesda/Markdown](https://github.com/geniustesda/Markdown "Markdown")|
+|MarkDownCopy                              |[https://github.com/geniustesda/Markdown](https://github.com/geniustesda/Markdown "Markdown")|
 
 
 关于其它扩展语法可参见具体工具的使用说明。
